@@ -1,0 +1,139 @@
+{
+  "project_info": {
+    "company_name": "QuantumTree Tech LLP",
+    "app_type": "marketing_site",
+    "theme": "Light",
+    "archetype": "Archetype 4 (Swiss & High-Contrast)",
+    "vibe": "Authority, clarity, high-end engineering, function-first"
+  },
+  "typography": {
+    "font_family": {
+      "headings": "'Outfit', sans-serif",
+      "body": "'Inter', sans-serif"
+    },
+    "hierarchy": {
+      "h1": "text-5xl sm:text-6xl tracking-tighter font-black leading-none",
+      "h2": "text-3xl sm:text-4xl tracking-tight font-extrabold leading-tight",
+      "h3": "text-xl sm:text-2xl tracking-tight font-bold",
+      "h4": "text-lg sm:text-xl font-bold",
+      "body": "text-base text-zinc-600 leading-relaxed",
+      "small": "text-sm text-zinc-500",
+      "overline": "text-xs font-semibold tracking-[0.2em] uppercase text-zinc-400"
+    },
+    "rules": [
+      "Headings MUST use tight letter spacing (tracking-tight or tracking-tighter).",
+      "Overlines MUST be uppercase and widely spaced (tracking-[0.2em]).",
+      "NEVER center-align dense text or paragraphs. Left-align for authority."
+    ]
+  },
+  "colors": {
+    "background": "#FAFAFA",
+    "surface": "#FFFFFF",
+    "text": {
+      "primary": "#18181B",
+      "secondary": "#52525B",
+      "inverse": "#FFFFFF"
+    },
+    "accent": {
+      "primary": "#002FA7",
+      "hover": "#00207A"
+    },
+    "border": "#E4E4E7",
+    "special": {
+      "usp_banner_bg": "#18181B",
+      "usp_banner_accent": "#002FA7"
+    }
+  },
+  "spacing_and_layout": {
+    "philosophy": "Generous Spacing. Use p-8, p-12, py-24 for sections to create breathing room.",
+    "grids": {
+      "bento_asymmetric": "grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-12"
+    },
+    "containers": {
+      "default": "max-w-7xl mx-auto px-6 md:px-12",
+      "bento_card_wide": "col-span-1 md:col-span-8 bg-white border border-zinc-200 p-8",
+      "bento_card_narrow": "col-span-1 md:col-span-4 bg-white border border-zinc-200 p-8"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "inline-flex items-center justify-center bg-[#002FA7] text-white px-8 py-4 font-bold tracking-wide hover:bg-[#00207A] transition-colors duration-200 rounded-none",
+      "secondary": "inline-flex items-center justify-center bg-white text-zinc-900 border border-zinc-200 px-8 py-4 font-bold tracking-wide hover:bg-zinc-50 transition-colors duration-200 rounded-none"
+    },
+    "header": {
+      "style": "fixed top-0 w-full z-50 bg-white/70 backdrop-blur-xl border-b border-zinc-200/50 backdrop-saturate-150 transition-all duration-300"
+    },
+    "cards": {
+      "style": "bg-white border border-zinc-200 p-8 hover:-translate-y-1 hover:shadow-lg transition-all duration-300 rounded-none"
+    }
+  },
+  "motion_and_interactions": {
+    "hover_states": "All buttons and links MUST have visible hover states with higher contrast.",
+    "animations": "Use framer-motion for smooth fade-up entrances. DO NOT use bouncy or overly playful animations. Keep them sharp and professional (ease-out, duration 0.4s).",
+    "scrolling": "Use lenis for smooth scrolling momentum."
+  },
+  "accessibility": {
+    "testing": "All interactive elements MUST include a data-testid attribute (kebab-case, role-based). Example: data-testid='contact-submit-button'",
+    "contrast": "Ensure minimum 4.5:1 contrast ratio. Hover states must have higher contrast than default."
+  },
+  "section_guidelines": {
+    "hero": "Left-aligned dominant text. Clear value prop. Background should be clean white geometric abstract. Use a gradient overlay (bg-gradient-to-r from-white/90 via-white/70 to-transparent) to ensure text legibility.",
+    "services": "Use the Tetris bento grid mode. Sharp borders (border-zinc-200), no border radius (rounded-none).",
+    "usp_highlight": "Create a high-contrast horizontal break. Dark background (#18181B) with stark white text stating 'Interview our engineers before hiring'.",
+    "portfolio": "Large imagery. Generous spacing between case studies. Grid-cols-1 md:grid-cols-2 for desktop.",
+    "about_us": "Include team portrait. Text should convey trust. Add a 'Trusted By' marquee right below this.",
+    "testimonials": "Clean typography, use large quotation marks. Incorporate client logos.",
+    "contact": "Minimalist form. No rounded corners. Heavy borders on focus (focus:ring-2 focus:ring-[#002FA7] focus:border-transparent)."
+  },
+  "media_urls": {
+    "images": [
+      {
+        "category": "hero_background",
+        "url": "https://images.unsplash.com/photo-1770816305998-57eec25ac2d5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTF8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMHdoaXRlJTIwZ2VvbWV0cmljJTIwYXJjaGl0ZWN0dXJlfGVufDB8fHx8MTc3NzAxMjc1NHww&ixlib=rb-4.1.0&q=85",
+        "description": "Abstract white geometric architecture"
+      },
+      {
+        "category": "team_portrait",
+        "url": "https://images.pexels.com/photos/19805885/pexels-photo-19805885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Professional software developer"
+      },
+      {
+        "category": "office_collaboration",
+        "url": "https://images.unsplash.com/photo-1582138825658-fb952c08b282?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwxfHxzb2Z0d2FyZSUyMGVuZ2luZWVycyUyMG9mZmljZSUyMGNvbGxhYm9yYXRpbmd8ZW58MHx8fHwxNzc3MDEyNzQxfDA&ixlib=rb-4.1.0&q=85",
+        "description": "Engineers collaborating"
+      },
+      {
+        "category": "services_abstract",
+        "url": "https://images.unsplash.com/photo-1564130539941-dc281d306a05?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTF8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMHdoaXRlJTIwZ2VvbWV0cmljJTIwYXJjaGl0ZWN0dXJlfGVufDB8fHx8MTc3NzAxMjc1NHww&ixlib=rb-4.1.0&q=85",
+        "description": "Clean white structural frame symbolizing code architecture"
+      }
+    ],
+    "logos": [
+      {
+        "category": "client_apple",
+        "url": "https://images.unsplash.com/photo-1618242556516-6858a8f34cb0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzl8MHwxfHNlYXJjaHwzfHxhcHBsZSUyMGxvZ28lMjB3aGl0ZSUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzc3MDEyNzcwfDA&ixlib=rb-4.1.0&q=85",
+        "description": "Apple Logo"
+      },
+      {
+        "category": "client_microsoft",
+        "url": "https://images.unsplash.com/photo-1696041757789-de7f8704535b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1Mjh8MHwxfHNlYXJjaHwxfHxtaWNyb3NvZnQlMjBsb2dvJTIwd2hpdGUlMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc3NzAxMjc1NHww&ixlib=rb-4.1.0&q=85",
+        "description": "Microsoft Logo"
+      },
+      {
+        "category": "client_google",
+        "url": "https://images.unsplash.com/photo-1706879350832-db2615866e54?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDR8MHwxfHNlYXJjaHwxfHxnb29nbGUlMjBsb2dvJTIwd2hpdGUlMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc3NzAxMjc3MHww&ixlib=rb-4.1.0&q=85",
+        "description": "Google Logo"
+      }
+    ]
+  },
+  "instructions_to_main_agent": [
+    "DO NOT prompt the user with ANY questions. Build the complete UI based on these guidelines.",
+    "Use standard HTML + Tailwind CSS for marketing layouts (Hero, Sections, Bento). Avoid relying solely on rigid pre-built Shadcn structural cards for layouts.",
+    "Use Shadcn components ONLY for interactive logic (Forms, Inputs, Selects). Customize Shadcn default rounded borders to rounded-none to fit the aesthetic.",
+    "Include an explicit visible navigation bar on desktop (do not hide links inside a mobile hamburger on large screens).",
+    "Integrate Google Font 'Outfit' for headings and 'Inter' for body.",
+    "NEVER use placeholder text or mock image URLs. Use the provided media URLs exclusively.",
+    "Install and use lucide-react for all icons (minimalistic, matching stroke-width).",
+    "The USP 'Interview our engineers before hiring' MUST be the focal point of its own distinct, high-contrast section (e.g. inverted colors)."
+  ]
+}
